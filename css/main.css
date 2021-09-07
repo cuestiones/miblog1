@@ -421,6 +421,9 @@ footer p {
     padding: 0px 1.8rem;
   }
 
+  .blogs-post-container .post-container {
+    padding: 0.5rem;
+  }
   footer {
     height: 100px;
     padding: 0 50px;
