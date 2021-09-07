@@ -1,3 +1,3 @@
-# miblog_1
+# Mi primer Blog
 
 Welcome!
