@@ -90,11 +90,29 @@ nav .nav-logo-container a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(./assets/home-low.jpg);
+  background-image: linear-gradient(45deg, #176551, #a8437e ) ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 400% 400%;
   background-position: center;
+  animation: change 10s ease-in-out;
 }
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+
+}
+
 
 .home-main .home-main-container {
   display: flex;
@@ -431,10 +449,3 @@ footer p {
 
 }  
 
-@media  (min-width: 570px) {
-    .home-main {
-      background-image: url(./assets/home2.jpg);
-    }
-
-    
-  }  
