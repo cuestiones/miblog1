@@ -37,6 +37,7 @@ header {
 }
 
 header .header-container {
+  height: 3.75rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
