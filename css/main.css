@@ -304,20 +304,22 @@ footer p {
 }
 
 .article-post h3 {
+  font-size: 1.2em;
   padding-bottom: 0.625rem ;
   border-bottom: 1px solid var(--grey);
 }
 
 .article-post h1 {
-  font-size: 2rem;
+  font-size: 2em;
   padding: 1.25rem 0;
   background-position: center;
 }
 
 .article-post p , blockquote {
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding: 0.625rem 0;
-  line-height: 2rem ;
+  line-height: 2em ;
+  text-align: justify;
 }
 
 /* contacto */
@@ -471,5 +473,13 @@ footer p {
   .profile-container-img img {
     width: 12rem;
   }  
+
+  .blog-container-img {
+    padding: 0 30px 40px; ;
+  }
+  .article-post {
+    padding: 0.625rem 3rem;
+    font-size: 12px;
+  }
 }
 
